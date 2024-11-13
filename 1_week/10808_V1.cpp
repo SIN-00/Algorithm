@@ -17,3 +17,7 @@ int main(){
 }
 
 //counting을 할때는 맵 또는 배열 
+//string 기반은 Map
+//Int는 Array
+//요소가 sparse하게 들어오면 Map
+//대문자 A : 65, 소문자 a : 97

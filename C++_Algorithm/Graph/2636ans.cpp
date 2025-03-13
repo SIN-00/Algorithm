@@ -3,7 +3,7 @@ using namespace std;
 int a[104][104], visited[104][104];
 int dy[] = {-1,0,1,0}, dx[] = {0,1,0,-1};   
 int n, m, cnt, cnt2;
-vector <pair<int,int>>v;
+vector <pair<int,int>> v;
 void go(int y,int x){
     visited[y][x] = 1;
     if(a[y][x] == 1){
